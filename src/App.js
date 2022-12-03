@@ -85,14 +85,14 @@ function App() {
             <li key={movie.name} className="movieItem">
               <div className="name"> {movie.name} </div>
               <div className="rating">
-                {" "}
-                <em>{movie.rating}</em>{" "}
+                <em>{movie.rating}</em>
               </div>
               <div className="description"> {movie.desc} </div>
             </li>
           ))}
         </ul>
       </div>
+      <h4>Made with ❤️ by snegicodes</h4>
     </div>
   );
 }
